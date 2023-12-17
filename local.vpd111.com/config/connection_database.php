@@ -3,7 +3,7 @@ try {
     $host = 'localhost';
     $database = 'local.vpd111.com';
     $username = 'root';
-    $password = '';
+    $password = '123456';
 
     $dsn = "mysql:host=$host;dbname=$database;charset=utf8";
 
