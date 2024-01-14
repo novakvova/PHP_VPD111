@@ -62,7 +62,7 @@ class AuthController extends Controller
            "lastName"=>"required|string",
            "image"=>"required|string",
            "phone"=>"required|string",
-           "email"=>"required|string",
+           "email"=>"required|email",
            "password"=>"required|string",
         ]);
         if($validation->fails()) {

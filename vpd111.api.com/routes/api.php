@@ -23,3 +23,5 @@ Route::post("categories/create", [\App\Http\Controllers\API\CategoryController::
 Route::get('/categories/{id}', [\App\Http\Controllers\API\CategoryController::class, 'getById']);
 Route::delete("/categories/{id}", [\App\Http\Controllers\API\CategoryController::class, "delete"]);
 Route::post("/categories/edit/{id}", [\App\Http\Controllers\API\CategoryController::class, "edit"]);
+
+Route::post("register", [\App\Http\Controllers\API\AuthController::class, 'register']);
